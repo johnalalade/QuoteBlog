@@ -30,7 +30,7 @@ function Structure(prop) {
         <p>"{prop.quote}"</p>
         <quote>~{prop.author}</quote>
         <div>
-          <a onClick={() => { navigator.clipboard.writeText(`${prop.quote}. ~${prop.author}`) }} className="btn btn-success card-btn">Copy</a>
+          <a onClick={() => { navigator.clipboard.writeText(`"${prop.quote}." ~${prop.author}`); toast.success('Quote Copied') }} className="btn btn-success card-btn">Copy</a>
         </div>
       </div>
       <br />
@@ -66,8 +66,8 @@ class Home extends Component {
     var difference_In_Days = difference_In_Time / (1000 * 3600 * 24)
 
     if (difference_In_Days >= 10) {
-      let todele = { product: c._id, token: this.state.token }
-      axios.post('/products/deleteone', todele)
+      let todele = { id: c._id}
+      axios.post('/quotes/delete', todele)
       return c = { owner: "delete" }
 
     }
@@ -81,7 +81,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    axios.post('http://localhost:5000/quotes', { hi: "john" })
+    axios.post('/quotes', { hi: "john" })
       .then((res) => res.data.response.map(this.dateChecker))
       .then((data) => data.filter(this.datefilter))
       .then((info) => this.setState({

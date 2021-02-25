@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://john-a.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },

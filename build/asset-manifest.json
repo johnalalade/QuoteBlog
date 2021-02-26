@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/QuoteBlog/static/css/main.014abd7f.chunk.css",
+    "main.js": "/QuoteBlog/static/js/main.92d00a83.chunk.js",
+    "main.js.map": "/QuoteBlog/static/js/main.92d00a83.chunk.js.map",
+    "runtime-main.js": "/QuoteBlog/static/js/runtime-main.dd28aace.js",
+    "runtime-main.js.map": "/QuoteBlog/static/js/runtime-main.dd28aace.js.map",
+    "static/css/2.a6c348fc.chunk.css": "/QuoteBlog/static/css/2.a6c348fc.chunk.css",
+    "static/js/2.3ca6c6c6.chunk.js": "/QuoteBlog/static/js/2.3ca6c6c6.chunk.js",
+    "static/js/2.3ca6c6c6.chunk.js.map": "/QuoteBlog/static/js/2.3ca6c6c6.chunk.js.map",
+    "index.html": "/QuoteBlog/index.html",
+    "precache-manifest.32fef5ad34caf9610d9186e22268e4c6.js": "/QuoteBlog/precache-manifest.32fef5ad34caf9610d9186e22268e4c6.js",
+    "service-worker.js": "/QuoteBlog/service-worker.js",
+    "static/css/2.a6c348fc.chunk.css.map": "/QuoteBlog/static/css/2.a6c348fc.chunk.css.map",
+    "static/css/main.014abd7f.chunk.css.map": "/QuoteBlog/static/css/main.014abd7f.chunk.css.map",
+    "static/js/2.3ca6c6c6.chunk.js.LICENSE.txt": "/QuoteBlog/static/js/2.3ca6c6c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd28aace.js",
+    "static/css/2.a6c348fc.chunk.css",
+    "static/js/2.3ca6c6c6.chunk.js",
+    "static/css/main.014abd7f.chunk.css",
+    "static/js/main.92d00a83.chunk.js"
+  ]
+}

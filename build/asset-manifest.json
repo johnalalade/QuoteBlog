@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/QuoteBlog/static/css/main.014abd7f.chunk.css",
-    "main.js": "/QuoteBlog/static/js/main.c555182e.chunk.js",
-    "main.js.map": "/QuoteBlog/static/js/main.c555182e.chunk.js.map",
+    "main.js": "/QuoteBlog/static/js/main.ec4f70b6.chunk.js",
+    "main.js.map": "/QuoteBlog/static/js/main.ec4f70b6.chunk.js.map",
     "runtime-main.js": "/QuoteBlog/static/js/runtime-main.dd28aace.js",
     "runtime-main.js.map": "/QuoteBlog/static/js/runtime-main.dd28aace.js.map",
     "static/css/2.a6c348fc.chunk.css": "/QuoteBlog/static/css/2.a6c348fc.chunk.css",
     "static/js/2.3ca6c6c6.chunk.js": "/QuoteBlog/static/js/2.3ca6c6c6.chunk.js",
     "static/js/2.3ca6c6c6.chunk.js.map": "/QuoteBlog/static/js/2.3ca6c6c6.chunk.js.map",
     "index.html": "/QuoteBlog/index.html",
-    "precache-manifest.252e66837aa01e1b3992a2f4336e1192.js": "/QuoteBlog/precache-manifest.252e66837aa01e1b3992a2f4336e1192.js",
+    "precache-manifest.a296710e3aa9ce5fcaf9a16e88bff923.js": "/QuoteBlog/precache-manifest.a296710e3aa9ce5fcaf9a16e88bff923.js",
     "service-worker.js": "/QuoteBlog/service-worker.js",
     "static/css/2.a6c348fc.chunk.css.map": "/QuoteBlog/static/css/2.a6c348fc.chunk.css.map",
     "static/css/main.014abd7f.chunk.css.map": "/QuoteBlog/static/css/main.014abd7f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.a6c348fc.chunk.css",
     "static/js/2.3ca6c6c6.chunk.js",
     "static/css/main.014abd7f.chunk.css",
-    "static/js/main.c555182e.chunk.js"
+    "static/js/main.ec4f70b6.chunk.js"
   ]
 }

@@ -67,7 +67,7 @@ class Home extends Component {
 
     if (difference_In_Days >= 10) {
       let todele = { id: c._id}
-      axios.post('/quotes/delete', todele)
+      axios.post('https://john-a.herokuapp.com/quotes/delete', todele)
       return c = { owner: "delete" }
 
     }
@@ -81,7 +81,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    axios.post('/quotes', { hi: "john" })
+    axios.post('https://john-a.herokuapp.com/quotes', { hi: "john" })
       .then((res) => res.data.response.map(this.dateChecker))
       .then((data) => data.filter(this.datefilter))
       .then((info) => this.setState({
@@ -130,7 +130,7 @@ class Home extends Component {
       return
     }
     else {
-      axios.post('/quotes/add', data, {
+      axios.post('https://john-a.herokuapp.com/quotes/add', data, {
         onUploadProgress: ProgressEvent => {
           this.setState({
             loaded: (ProgressEvent.loaded / ProgressEvent.total * 100),
